@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9qunVk73sJUn4ZDs9pCroK95/z5inFSXtg7IllZpjQUGgnHIR6K4Czd9jHnZw3VAaipZ4+FrH5yjYahwBlL40g==",
+  "dgSpecHash": "DSbNPjQ9KZzy7nxl2Q1iEDMpdY66SHWZSP+aBczBmcpSpbunbt9db8qm3iIRRha6WPGl9IoqA92/RnIZhyJ2Ng==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nicol\\RiderProjects\\TodoAppWASM\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nicol\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.2\\microsoft.aspnetcore.openapi.7.0.2.nupkg.sha512",
     "C:\\Users\\nicol\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
