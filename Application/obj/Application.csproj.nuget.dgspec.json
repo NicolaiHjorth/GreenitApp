@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "/Users/johan/Desktop/SEM7/DNP/GreenIt/Application/Application.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "/Users/johan/Desktop/SEM7/DNP/GreenIt/Application/Application.csproj",
         "packagesPath": "/Users/johan/.nuget/packages/",
         "outputPath": "/Users/johan/Desktop/SEM7/DNP/GreenIt/Application/obj/",
+=======
+    "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\Application\\Application.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\Application\\Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\nicol\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\Application\\obj\\",
+>>>>>>> d674e320d50bb70912d0a3e8a9d10c9cb97f6b94
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/johan/.nuget/NuGet/NuGet.Config"
@@ -26,8 +40,13 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
+<<<<<<< HEAD
               "/Users/johan/Desktop/SEM7/DNP/GreenIt/Domain/Domain.csproj": {
                 "projectPath": "/Users/johan/Desktop/SEM7/DNP/GreenIt/Domain/Domain.csproj"
+=======
+              "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\Domain\\Domain.csproj"
+>>>>>>> d674e320d50bb70912d0a3e8a9d10c9cb97f6b94
               }
             }
           }
@@ -61,6 +80,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "/Users/johan/Desktop/SEM7/DNP/GreenIt/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -69,6 +89,16 @@
         "projectPath": "/Users/johan/Desktop/SEM7/DNP/GreenIt/Domain/Domain.csproj",
         "packagesPath": "/Users/johan/.nuget/packages/",
         "outputPath": "/Users/johan/Desktop/SEM7/DNP/GreenIt/Domain/obj/",
+=======
+    "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\nicol\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\Domain\\obj\\",
+>>>>>>> d674e320d50bb70912d0a3e8a9d10c9cb97f6b94
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/johan/.nuget/NuGet/NuGet.Config"
