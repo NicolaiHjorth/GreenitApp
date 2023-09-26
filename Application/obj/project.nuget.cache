@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jCa6LUMLsXgsZvAGBnr3zUznkZ5Ie4z0G5ZrkpasydyT/gDUgfiI8hE/BZGYA/Eq7ioQHNmMtFejzBVbMaSrtQ==",
+  "dgSpecHash": "frYXCs0v2AshGL/5W+l9snm3w2Q16hMpPpyHouxu4PQnZTpPpb96vFX0i+wkMRlfv+Sr8EQsq5SnmjhHct3sgQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nicol\\RiderProjects\\TodoAppWASM\\Application\\Application.csproj",
+  "projectFilePath": "/Users/johan/Desktop/SEM7/DNP/GreenIt/Application/Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
