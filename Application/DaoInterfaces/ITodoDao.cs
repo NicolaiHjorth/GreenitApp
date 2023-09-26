@@ -11,8 +11,4 @@ public interface ITodoDao
     Task<Todo> GetByIdAsync(int id);
     Task DeleteAsync(int id);
     
-    
-    hej - HEJ IGEN
-    
-    FISSESPILLERMAND
 }
