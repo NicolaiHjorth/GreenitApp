@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HIOHnnVOXlxU6IRdFYxUg26r8HHrVlMf6jU+UW0blPQtMZqoZDIacATP+e+EoqSzhBVgGq4DCJM6D824pMO1vw==",
+  "dgSpecHash": "Xwfipt7p7HOOnB2NIdLDG+JDIJgdBd2MAiIrs2zxLpRFRdpJDi5jkdHyAACUdoSGkDA5p6eJmMiYUAm/lwQdYQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\Domain\\Domain.csproj",
+  "projectFilePath": "/Users/johan/Desktop/SEM7/DNP/GreenIt/Domain/Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
