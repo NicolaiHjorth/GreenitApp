@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\Domain\\Domain.csproj": {}
+    "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\Domain\\Domain.csproj": {
+    "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\nicol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\mikke\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nicol\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\mikke\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\mikke\\.dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }
