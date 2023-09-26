@@ -21,15 +21,24 @@
       "UserName": "Torben"
     }
   ],
-  "Todos": [
+  "Posts": [
+    {
+      "Id": 1,
+      "Owner": {
+        "Id": 1,
+        "UserName": "Troels"
+      },
+      "Title": "First Post",
+      "Content": "This is content!"
+    },
     {
       "Id": 2,
       "Owner": {
-        "Id": 2,
-        "UserName": "Sven"
+        "Id": 1,
+        "UserName": "Troels"
       },
-      "Title": "test2",
-      "IsCompleted": false
+      "Title": "First Post",
+      "Content": "This is content!"
     }
   ]
 }

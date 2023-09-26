@@ -1,13 +1,13 @@
 ﻿namespace Domain.DTOs;
 
-public class TodoUpdateDto
+public class PostUpdateDto
 {
     public int Id { get; }
     public int? OwnerId { get; set; }
     public string? Title { get; set; }
-    public bool? IsCompleted { get; set; }
+    public string? Content { get; set; }
 
-    public TodoUpdateDto(int id)
+    public PostUpdateDto(int id)
     {
         Id = id;
     }

@@ -21,14 +21,14 @@
       "UserName": "Torben"
     }
   ],
-  "Todos": [
+  "Posts": [
     {
       "Id": 2,
       "Owner": {
         "Id": 2,
         "UserName": "Sven"
       },
-      "Title": "test2",
+      "Title": "SJ\u00C5L\u00C5L\u00C5",
       "IsCompleted": false
     }
   ]

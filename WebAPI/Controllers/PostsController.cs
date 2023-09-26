@@ -7,22 +7,22 @@ namespace WebAPI.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class TodosController : ControllerBase
+public class PostsController : ControllerBase
 {
-    private readonly ITodoLogic todoLogic;
+    private readonly IPostLogic postLogic;
 
-    public TodosController(ITodoLogic todoLogic)
+    public PostsController(IPostLogic postLogic)
     {
-        this.todoLogic = todoLogic;
+        this.postLogic = postLogic;
     }
 
     [HttpPost]
-    public async Task<ActionResult<Todo>> CreateAsync([FromBody]TodoCreationDto dto)
+    public async Task<ActionResult<Post>> CreateAsync([FromBody]PostCreationDto dto)
     {
         try
         {
-            Todo created = await todoLogic.CreateAsync(dto);
-            return Created($"/todos/{created.Id}", created);
+            Post created = await postLogic.CreateAsync(dto);
+            return Created($"/posts/{created.Id}", created);
         }
         catch (Exception e)
         {
@@ -31,13 +31,13 @@ public class TodosController : ControllerBase
         }
     }
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<Todo>>> GetAsync([FromQuery] string? username,[FromQuery] int? userId,[FromQuery] bool? completedStatus,[FromQuery] string? titleContains)
+    public async Task<ActionResult<IEnumerable<Post>>> GetAsync([FromQuery] string? username,[FromQuery] int? userId,[FromQuery] string? content,[FromQuery] string? titleContains)
     {
         try
         {
-            SearchTodoParametersDto parameters = new(username, userId, completedStatus, titleContains);
-            IEnumerable<Todo> todos = await todoLogic.GetAsync(parameters);
-            return Ok(todos);
+            SearchPostParametersDto parameters = new(username, userId, content, titleContains);
+            IEnumerable<Post> posts = await postLogic.GetAsync(parameters);
+            return Ok(posts);
         }
         catch (Exception e)
         {
@@ -47,11 +47,11 @@ public class TodosController : ControllerBase
     }
 
     [HttpPatch]
-    public async Task<ActionResult<Todo>> UpdateAsync([FromBody]TodoUpdateDto toUpdate)
+    public async Task<ActionResult<Post>> UpdateAsync([FromBody]PostUpdateDto toUpdate)
     {
         try
         {
-            await todoLogic.UpdateAsync(toUpdate);
+            await postLogic.UpdateAsync(toUpdate);
             return Ok();
         }
         catch (Exception e)
@@ -66,7 +66,7 @@ public class TodosController : ControllerBase
     {
         try
         {
-            await todoLogic.DeleteAsync(id);
+            await postLogic.DeleteAsync(id);
             return Ok();
         }
         catch (Exception e)
@@ -81,7 +81,7 @@ public class TodosController : ControllerBase
     {
         try
         {
-            TodoBasicDto result = await todoLogic.GetByIdAsync(id);
+            PostBasicDto result = await postLogic.GetByIdAsync(id);
             return Ok();
         }
         catch (Exception e)

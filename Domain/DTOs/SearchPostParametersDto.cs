@@ -1,17 +1,17 @@
 ﻿namespace Domain.DTOs;
 
-public class SearchTodoParametersDto
+public class SearchPostParametersDto
 {
     public string? Username { get; }
     public int? UserId { get; }
-    public bool? CompletedStatus { get; }
+    public string? Content { get; }
     public string? TitleContains { get; }
 
-    public SearchTodoParametersDto(string? username, int? userId, bool? completedStatus, string? titleContains)
+    public SearchPostParametersDto(string? username, int? userId, string? content, string? titleContains)
     {
         Username = username;
         UserId = userId;
-        CompletedStatus = completedStatus;
+        Content = content;
         TitleContains = titleContains;
     }
 }
