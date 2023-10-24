@@ -42,10 +42,10 @@ public class PostFileDao : IPostDao
             posts = posts.Where(t =>
                 t.Owner.Id == searchParameters.UserId);
         }
-        if (searchParameters.Content != null)
+        if (searchParameters.ContentContains != null)
         {
             posts = posts.Where(t =>
-                t.Content == searchParameters.Content);
+                t.Content.Contains(searchParameters.ContentContains,StringComparison.OrdinalIgnoreCase));
         }
         if (!string.IsNullOrEmpty(searchParameters.TitleContains))
         {
