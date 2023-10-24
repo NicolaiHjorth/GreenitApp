@@ -1,3 +1,42 @@
+/* /Pages/EditPost.razor.rz.scp.css */
+
+.postCard[b-n580juhvg4] {
+    padding-top: 15px;
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 700px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.padded[b-n580juhvg4] {
+    padding-left: 30px !important;
+}
+
+title[b-n580juhvg4] {
+    margin: 0;
+    padding: 0;
+    width: 590px
+}
+
+.content[b-n580juhvg4] {
+    width: 600px;
+    height: 300px;
+}
+
+.timestamp[b-n580juhvg4] {
+    font-size: 10px;
+    margin: 0;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.editBtn[b-n580juhvg4]{
+    margin-bottom: 15px;
+}
+
+
 /* /Pages/PostCard.razor.rz.scp.css */
 
 .postCard[b-qa9phm4z2i] {
@@ -10,7 +49,9 @@
 }
 
 .padded[b-qa9phm4z2i] {
-    padding-left: 30px !important;
+    padding-left: 30px;
+    padding-right: 30px;
+    word-wrap: break-word;
 }
 
 h3[b-qa9phm4z2i] {

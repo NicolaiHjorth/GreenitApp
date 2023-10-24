@@ -1687,3 +1687,4 @@ C:/Users/mikke/RiderProjects/GreenitApp/BlazorWASM/obj/Debug/net7.0/ref/BlazorWA
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/obj/Debug/net7.0/BlazorWASM.pdb
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/obj/Debug/net7.0/ref/BlazorWASM.dll
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/obj/Debug/net7.0/scopedcss/Pages/PostCard.razor.rz.scp.css
+/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/obj/Debug/net7.0/scopedcss/Pages/EditPost.razor.rz.scp.css

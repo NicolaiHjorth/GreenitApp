@@ -9,14 +9,18 @@
 }
 
 .padded {
-    padding-left: 30px;
-    padding-right: 30px;
-    word-wrap: break-word;
+    padding-left: 30px !important;
 }
 
-h3 {
+title {
     margin: 0;
     padding: 0;
+    width: 590px
+}
+
+.content {
+    width: 600px;
+    height: 300px;
 }
 
 .timestamp {
