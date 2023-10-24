@@ -2,12 +2,13 @@
 <div class="border border-dark postCard padded">
     <div class="padded">
         <h3>@Title</h3>
+        <p class="timestamp">@TimeStamp</p>
         <p>By @UserName</p>
         <p>@Content</p>
         @if (editAllowed) {
             
         <div>
-            <a href="/EditPost/@ItemId"><button>Edit</button></a>
+            <a href="/EditPost/@ItemId"><button class="editBtn btn btn-success">Edit</button></a>
         </div>
         }
     </div>
@@ -18,6 +19,7 @@
     [Parameter] public string? Title { get; set; }
     [Parameter] public string? UserName { get; set; }
     [Parameter] public string? Content { get; set; }
+    [Parameter] public string? TimeStamp { get; set; }
 
     [Parameter]
     public bool editAllowed { get; set; } = false;

@@ -4,14 +4,30 @@
     padding-top: 15px;
     border: 1px solid black;
     border-radius: 25px;
-    cursor: pointer;
     width: 700px;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .padded[b-qa9phm4z2i] {
     padding-left: 30px !important;
+}
+
+h3[b-qa9phm4z2i] {
+    margin: 0;
+    padding: 0;
+}
+
+.timestamp[b-qa9phm4z2i] {
+    font-size: 10px;
+    margin: 0;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.editBtn[b-qa9phm4z2i]{
+    margin-bottom: 15px;
 }
 
 

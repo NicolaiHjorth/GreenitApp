@@ -7,11 +7,13 @@ public class Post
     public string Title { get; }
     
     public string Content { get; }
+    public String TimeStamp { get; }
 
-    public Post(User owner, string title, string content)
+    public Post(User owner, string title, string content, string timeStamp)
     {
         Owner = owner;
         Title = title;
         Content = content;
+        TimeStamp = timeStamp;
     }
 }

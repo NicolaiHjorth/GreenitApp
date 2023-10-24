@@ -87,7 +87,7 @@
 
         try
         {
-            PostCreationDto dto = new((int)selectedUserId, postTitle, postContent);
+            PostCreationDto dto = new((int)selectedUserId, postTitle, postContent, "");
             await postService.CreateAsync(dto);
             navMgr.NavigateTo("/ViewPosts");
         }

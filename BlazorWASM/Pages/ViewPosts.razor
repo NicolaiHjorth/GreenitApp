@@ -6,7 +6,7 @@
 <h3>Posts</h3>
 <div class="d-flex flex-row" style="margin: auto">
     <div style="margin-right: 15px">
-        <button style="width: 110px" @onclick="@(() => doShowFilters = !doShowFilters)" alt="Funnel">@(doShowFilters ? "Hide Filters" : "Show Filters")</button>
+        <button style="width: 110px" @onclick="@(() => doShowFilters = !doShowFilters)">@(doShowFilters ? "Hide Filters" : "Show Filters")</button>
     </div>
     <div>
         @if (doShowFilters)
@@ -46,7 +46,7 @@ else
     @foreach (var item in posts)
     {
         <a href="/viewSinglePost/@item.Id" style="text-decoration: none; color: black;">
-        <PostCard Title="@item.Title"  UserName="@item.Owner.UserName" ItemId="@item.Id"/>
+        <PostCard Title="@item.Title"  UserName="@item.Owner.UserName" ItemId="@item.Id" TimeStamp="@item.TimeStamp"/>
         </a>
     }
 }
@@ -77,6 +77,8 @@ else
         try
         {
             posts = await postService.GetAsync(usernameFilter, titleContainsFilter, contentContainsFilter);
+            
+            posts = posts.OrderByDescending(post => post.TimeStamp);
         }
         catch (Exception e)
         {
