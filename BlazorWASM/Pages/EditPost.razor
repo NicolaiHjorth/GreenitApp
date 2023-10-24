@@ -1,0 +1,77 @@
+﻿@page "/EditPost/{id:int}"
+@using Domain.DTOs
+@using Domain.Models
+@using HttpClients.ClientInterfaces
+@inject IPostService postService
+@inject NavigationManager navMgr
+
+<div class="card">
+    @if (dto == null)
+    {
+        <label>Loading post data..</label>
+    }
+    else
+    {
+        <h3>Update Posts</h3>
+        <div class="form-group field">
+            <label>Title:</label>
+            <input type="text" @bind="dto.Title"/>
+        </div>
+        <div class="form-group field">
+            <label>Content:</label>
+            <input type="text" @bind="dto.Content"/>
+        </div>
+        <div class="button-row">
+            <button @onclick="UpdateAsync">Update</button>
+        </div>
+    }
+    @if (!string.IsNullOrEmpty(msg))
+    {
+        <label style="color: red">@msg</label>
+    }
+</div>
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    private PostUpdateDto dto = null!;
+    private string msg = "";
+    
+    
+    protected override async Task OnInitializedAsync()
+    {
+        msg = "";
+        try
+        {
+            PostBasicDto postData = await postService.GetByIdAsync(Id);
+            
+
+            dto = new(Id)
+            {
+                Title = postData.Title,
+                Content = postData.Content
+            };
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+        }
+    }
+    
+    
+    private async Task UpdateAsync()
+    {
+        try
+        {
+            await postService.UpdateAsync(dto);
+            navMgr.NavigateTo("/ViewSinglePost/"+Id);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+        }
+    }
+}

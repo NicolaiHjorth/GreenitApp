@@ -20,20 +20,28 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mikke/RiderProjects/GreenitApp/BlazorWASM/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+[C:/Users/mikke/RiderProjects/GreenitApp/BlazorWASM/Pages/CreatePost.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlUG9zdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/mikke/RiderProjects/GreenitApp/BlazorWASM/Pages/CreateUser.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlVXNlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mikke/RiderProjects/GreenitApp/BlazorWASM/Pages/FetchData.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+[C:/Users/mikke/RiderProjects/GreenitApp/BlazorWASM/Pages/EditPost.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFBvc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/mikke/RiderProjects/GreenitApp/BlazorWASM/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mikke/RiderProjects/GreenitApp/BlazorWASM/Pages/ViewPosts.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1Bvc3RzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mikke/RiderProjects/GreenitApp/BlazorWASM/Pages/ViewSinglePost.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1NpbmdsZVBvc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/mikke/RiderProjects/GreenitApp/BlazorWASM/Pages/ViewUsers.razor]
