@@ -19,17 +19,30 @@
     {
       "Id": 5,
       "UserName": "Torben"
+    },
+    {
+      "Id": 6,
+      "UserName": "Dillermand"
     }
   ],
   "Posts": [
     {
+      "Id": 1,
+      "Owner": {
+        "Id": 1,
+        "UserName": "Troels"
+      },
+      "Title": "First Post",
+      "Content": "This is content!"
+    },
+    {
       "Id": 2,
       "Owner": {
-        "Id": 2,
-        "UserName": "Sven"
+        "Id": 1,
+        "UserName": "Troels"
       },
-      "Title": "SJ\u00C5L\u00C5L\u00C5",
-      "IsCompleted": false
+      "Title": "First Post",
+      "Content": "This is content!"
     }
   ]
 }

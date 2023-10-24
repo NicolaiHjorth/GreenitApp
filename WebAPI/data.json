@@ -19,6 +19,10 @@
     {
       "Id": 5,
       "UserName": "Torben"
+    },
+    {
+      "Id": 6,
+      "UserName": "Dillermand"
     }
   ],
   "Posts": [
