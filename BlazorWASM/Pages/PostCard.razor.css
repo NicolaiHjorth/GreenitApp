@@ -1,0 +1,16 @@
+
+.postCard {
+    padding-top: 15px;
+    border: 1px solid black;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 700px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.padded {
+    padding-left: 30px !important;
+}
+
+

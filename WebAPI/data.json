@@ -23,18 +23,13 @@
     {
       "Id": 6,
       "UserName": "Dillermand"
+    },
+    {
+      "Id": 7,
+      "UserName": "123"
     }
   ],
   "Posts": [
-    {
-      "Id": 2,
-      "Owner": {
-        "Id": 1,
-        "UserName": "Troels"
-      },
-      "Title": "First Post",
-      "Content": "This is content!"
-    },
     {
       "Id": 5,
       "Owner": {
@@ -88,6 +83,15 @@
       },
       "Title": "ostehaps",
       "Content": "Sap er noget jens cramer har opfundet"
+    },
+    {
+      "Id": 2,
+      "Owner": {
+        "Id": 1,
+        "UserName": "Troels"
+      },
+      "Title": "First Post",
+      "Content": "This is content!"
     }
   ]
 }

@@ -2,34 +2,20 @@
 @using Domain.DTOs
 @using HttpClients.ClientInterfaces
 @inject IPostService postService
-<h3>ViewSinglePost</h3>
 
 
-<div class="card">
     @if (dto == null)
     {
         <label>Loading post data..</label>
     }
     else
     {
-        <div class="form-group field">
-            <label>Title:</label>
-            <textarea readonly>@dto.Title</textarea>
-        </div>
-        <div class="form-group field">
-            <label>Content:</label>
-            <textarea readonly>@dto.Content</textarea>
-        </div>
-        <div>
-            <a href="/EditPost/@dto.Id"><button>Edit</button></a>
-        </div>
-
+        <PostCard Title="@dto.Title"  UserName="Fake username" ItemId="@dto.Id" Content="@dto.Content" editAllowed="true"/>
     }
     @if (!string.IsNullOrEmpty(msg))
     {
         <label style="color: red">@msg</label>
     }
-</div>
 
 
 
