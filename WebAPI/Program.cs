@@ -22,6 +22,13 @@ builder.Services.AddScoped<IPostLogic, PostLogic>();
 
 var app = builder.Build();
 
+//Allowing Blazor to Access WEBAPI
+app.UseCors(x => x
+    .AllowAnyMethod()
+    .AllowAnyHeader()
+    .SetIsOriginAllowed(origin => true) // allow any origin
+    .AllowCredentials());
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
