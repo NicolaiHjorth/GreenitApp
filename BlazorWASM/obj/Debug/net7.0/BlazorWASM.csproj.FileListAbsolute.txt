@@ -1077,6 +1077,7 @@ C:/Users/mikke/RiderProjects/GreenitApp/BlazorWASM/obj/Debug/net7.0/ref/BlazorWA
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Win32.Primitives.dll.gz
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/System.Collections.NonGeneric.dll.gz
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/System.IO.Pipes.AccessControl.dll.gz
+/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll.gz
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/System.Private.Xml.Linq.dll.gz
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/System.Runtime.Serialization.dll.gz
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/System.ComponentModel.EventBasedAsync.dll.gz
@@ -1109,6 +1110,7 @@ C:/Users/mikke/RiderProjects/GreenitApp/BlazorWASM/obj/Debug/net7.0/ref/BlazorWA
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/System.Transactions.Local.dll.gz
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/BlazorWASM.dll.gz
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/System.Formats.Tar.dll.gz
+/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Metadata.dll.gz
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Options.dll.gz
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/System.ComponentModel.TypeConverter.dll.gz
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/System.IO.Compression.FileSystem.dll.gz
@@ -1118,6 +1120,7 @@ C:/Users/mikke/RiderProjects/GreenitApp/BlazorWASM/obj/Debug/net7.0/ref/BlazorWA
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/System.IO.Compression.ZipFile.dll.gz
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/System.Text.Encodings.Web.dll.gz
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/System.Diagnostics.Debug.dll.gz
+/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.dll.gz
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/System.Xml.XDocument.dll.gz
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/Domain.dll.gz
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/System.Net.Sockets.dll.gz
@@ -1146,7 +1149,6 @@ C:/Users/mikke/RiderProjects/GreenitApp/BlazorWASM/obj/Debug/net7.0/ref/BlazorWA
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/System.Xml.Serialization.dll.gz
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/System.Threading.Thread.dll.gz
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/System.IO.UnmanagedMemoryStream.dll.gz
-/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll.gz
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/System.Net.Quic.dll.gz
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/System.Threading.dll.gz
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/System.Threading.Overlapped.dll.gz
@@ -1235,7 +1237,6 @@ C:/Users/mikke/RiderProjects/GreenitApp/BlazorWASM/obj/Debug/net7.0/ref/BlazorWA
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/System.ComponentModel.Annotations.dll.gz
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/System.Windows.dll.gz
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/System.Formats.Asn1.dll.gz
-/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Metadata.dll.gz
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/System.Data.dll.gz
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/System.Runtime.Handles.dll.gz
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/icudt_EFIGS.dat.gz
@@ -1252,7 +1253,6 @@ C:/Users/mikke/RiderProjects/GreenitApp/BlazorWASM/obj/Debug/net7.0/ref/BlazorWA
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/System.Xml.ReaderWriter.dll.gz
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/System.Runtime.Extensions.dll.gz
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/dotnet.timezones.blat.gz
-/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.dll.gz
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/BlazorWASM.staticwebassets.runtime.json
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/BlazorWASM.dll
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/BlazorWASM.pdb
@@ -1464,12 +1464,11 @@ C:/Users/mikke/RiderProjects/GreenitApp/BlazorWASM/obj/Debug/net7.0/ref/BlazorWA
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/obj/Debug/net7.0/BlazorWASM.AssemblyInfo.cs
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/obj/Debug/net7.0/BlazorWASM.csproj.CoreCompileInputs.cache
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/obj/Debug/net7.0/BlazorWASM.MvcApplicationPartsAssemblyInfo.cache
-/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/obj/Debug/net7.0/build-gz/zSxAGPCm.gz
-/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/obj/Debug/net7.0/build-gz/kZsWYew9.gz
+/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/obj/Debug/net7.0/build-gz/GFxfBgGn.gz
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/obj/Debug/net7.0/build-gz/5E1A71kX.gz
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/obj/Debug/net7.0/build-gz/uN8xPfgX.gz
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/obj/Debug/net7.0/build-gz/hXmzQpMq.gz
-/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/obj/Debug/net7.0/build-gz/wqbMp1sk.gz
+/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/obj/Debug/net7.0/build-gz/EWOfZyBv.gz
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/obj/Debug/net7.0/build-gz/kakO8hNF.gz
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/obj/Debug/net7.0/build-gz/cm5f8zTG.gz
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/obj/Debug/net7.0/build-gz/i0QeQ6mK.gz
@@ -1688,3 +1687,8 @@ C:/Users/mikke/RiderProjects/GreenitApp/BlazorWASM/obj/Debug/net7.0/ref/BlazorWA
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/obj/Debug/net7.0/refint/BlazorWASM.dll
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/obj/Debug/net7.0/BlazorWASM.pdb
 /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/obj/Debug/net7.0/ref/BlazorWASM.dll
+/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Authorization.dll
+/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Authorization.dll.gz
+/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/Microsoft.AspNetCore.Components.Authorization.dll
+/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/obj/Debug/net7.0/build-gz/8AmmpJkG.gz
+/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/obj/Debug/net7.0/build-gz/CXnfJaft.gz

@@ -2,31 +2,59 @@
   "Users": [
     {
       "Id": 1,
-      "UserName": "Troels"
+      "UserName": "Troels",
+      "Password": null,
+      "Email": null,
+      "Age": 0,
+      "Role": null
     },
     {
       "Id": 2,
-      "UserName": "Sven"
+      "UserName": "Sven",
+      "Password": null,
+      "Email": null,
+      "Age": 0,
+      "Role": null
     },
     {
       "Id": 3,
-      "UserName": "Lars"
+      "UserName": "Lars",
+      "Password": null,
+      "Email": null,
+      "Age": 0,
+      "Role": null
     },
     {
       "Id": 4,
-      "UserName": "Per"
+      "UserName": "Per",
+      "Password": null,
+      "Email": null,
+      "Age": 0,
+      "Role": null
     },
     {
       "Id": 5,
-      "UserName": "Torben"
+      "UserName": "Torben",
+      "Password": null,
+      "Email": null,
+      "Age": 0,
+      "Role": null
     },
     {
       "Id": 6,
-      "UserName": "Dillermand"
+      "UserName": "Dillermand",
+      "Password": null,
+      "Email": null,
+      "Age": 0,
+      "Role": null
     },
     {
       "Id": 7,
-      "UserName": "123"
+      "UserName": "123",
+      "Password": null,
+      "Email": null,
+      "Age": 0,
+      "Role": null
     }
   ],
   "Posts": [
@@ -34,7 +62,11 @@
       "Id": 1,
       "Owner": {
         "Id": 1,
-        "UserName": "Troels"
+        "UserName": "Troels",
+        "Password": null,
+        "Email": null,
+        "Age": 0,
+        "Role": null
       },
       "Title": "fl\u00F8dekage1234",
       "Content": "\u00E9t eller andet bullshit!",
@@ -44,7 +76,11 @@
       "Id": 3,
       "Owner": {
         "Id": 6,
-        "UserName": "Dillermand"
+        "UserName": "Dillermand",
+        "Password": null,
+        "Email": null,
+        "Age": 0,
+        "Role": null
       },
       "Title": "Gedeost er klammo or what?",
       "Content": "Hvad syntes i? m\u00E5ske?",
@@ -54,7 +90,11 @@
       "Id": 6,
       "Owner": {
         "Id": 3,
-        "UserName": "Lars"
+        "UserName": "Lars",
+        "Password": null,
+        "Email": null,
+        "Age": 0,
+        "Role": null
       },
       "Title": "\u00E6lakj",
       "Content": ".alskdjakjfl\u00E6kajsf",
@@ -64,7 +104,11 @@
       "Id": 4,
       "Owner": {
         "Id": 2,
-        "UserName": "Sven"
+        "UserName": "Sven",
+        "Password": null,
+        "Email": null,
+        "Age": 0,
+        "Role": null
       },
       "Title": "ostehaps",
       "Content": "Sap er noget jens cramer har opfundet",
@@ -74,7 +118,11 @@
       "Id": 2,
       "Owner": {
         "Id": 1,
-        "UserName": "Troels"
+        "UserName": "Troels",
+        "Password": null,
+        "Email": null,
+        "Age": 0,
+        "Role": null
       },
       "Title": "First Post",
       "Content": "This is content!",
@@ -84,7 +132,11 @@
       "Id": 8,
       "Owner": {
         "Id": 1,
-        "UserName": "Troels"
+        "UserName": "Troels",
+        "Password": null,
+        "Email": null,
+        "Age": 0,
+        "Role": null
       },
       "Title": "TESTESTE",
       "Content": "123",
@@ -94,7 +146,11 @@
       "Id": 9,
       "Owner": {
         "Id": 2,
-        "UserName": "Sven"
+        "UserName": "Sven",
+        "Password": null,
+        "Email": null,
+        "Age": 0,
+        "Role": null
       },
       "Title": "123",
       "Content": "123",
@@ -104,7 +160,11 @@
       "Id": 5,
       "Owner": {
         "Id": 5,
-        "UserName": "Torben"
+        "UserName": "Torben",
+        "Password": null,
+        "Email": null,
+        "Age": 0,
+        "Role": null
       },
       "Title": "This was",
       "Content": "This was content",
@@ -114,7 +174,11 @@
       "Id": 10,
       "Owner": {
         "Id": 2,
-        "UserName": "Sven"
+        "UserName": "Sven",
+        "Password": null,
+        "Email": null,
+        "Age": 0,
+        "Role": null
       },
       "Title": "johan",
       "Content": "johan1",
@@ -124,11 +188,29 @@
       "Id": 7,
       "Owner": {
         "Id": 6,
-        "UserName": "Dillermand"
+        "UserName": "Dillermand",
+        "Password": null,
+        "Email": null,
+        "Age": 0,
+        "Role": null
       },
       "Title": "gedehams1",
       "Content": "kadjg\u00F8aksjfa\u00F8KJg\u00F8a\u003Ckdjg\u00F8zsdjg\u00F8alklefjh\u00E6lksdfjh\u00F8lksdjf\u00F8hlkas\u00F8rhjs\u00F8dlkjh\u00F8sdjfh\u00F8klsdjh\u00F8lksjdhf\u00F8lkgha\u00F8roioh\u00F8oaeirohj\u00F8lilasrhg\u00F8goihseoihjse\u00F8ihj\u00F8\u00E6lkdfhjlksdjhh\u00F8lksdj\u00F8oihw\u00F8ioh\u00F8apihf\u00F8oihga\u00F8pojg\u0027popOHJE\u0027\u00D8OHG\u0027JGAJ\u00D8\u0027GA\u00D8JGA\u00D8JAGF\u00D8JAGS\u00D8J",
       "TimeStamp": "2023-10-25 10.14.51"
+    },
+    {
+      "Id": 11,
+      "Owner": {
+        "Id": 2,
+        "UserName": "Sven",
+        "Password": null,
+        "Email": null,
+        "Age": 0,
+        "Role": null
+      },
+      "Title": "KAGEKAGE",
+      "Content": "KAGEKAGEKAGE",
+      "TimeStamp": "2023-10-25 12.21.45"
     }
   ]
 }

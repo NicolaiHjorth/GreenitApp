@@ -25,6 +25,7 @@ C:/Users/mikke/RiderProjects/GreenitApp/Domain/obj/Debug/net7.0/ref/Domain.dll
 /Users/johan/Desktop/SEM7/DNP/GreenIt/Domain/bin/Debug/net7.0/Domain.deps.json
 /Users/johan/Desktop/SEM7/DNP/GreenIt/Domain/bin/Debug/net7.0/Domain.dll
 /Users/johan/Desktop/SEM7/DNP/GreenIt/Domain/bin/Debug/net7.0/Domain.pdb
+/Users/johan/Desktop/SEM7/DNP/GreenIt/Domain/obj/Debug/net7.0/Domain.csproj.AssemblyReference.cache
 /Users/johan/Desktop/SEM7/DNP/GreenIt/Domain/obj/Debug/net7.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
 /Users/johan/Desktop/SEM7/DNP/GreenIt/Domain/obj/Debug/net7.0/Domain.AssemblyInfoInputs.cache
 /Users/johan/Desktop/SEM7/DNP/GreenIt/Domain/obj/Debug/net7.0/Domain.AssemblyInfo.cs

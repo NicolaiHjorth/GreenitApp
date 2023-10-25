@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "frYXCs0v2AshGL/5W+l9snm3w2Q16hMpPpyHouxu4PQnZTpPpb96vFX0i+wkMRlfv+Sr8EQsq5SnmjhHct3sgQ==",
+  "dgSpecHash": "ezkCDL/8o6wo7zBN18ZGlbWLwzpql6f1lRkdZF97Mhn4TOrK+77xtXsGxq5Gh6SwJF3w++S7dSSls1MSC03+4g==",
   "success": true,
   "projectFilePath": "/Users/johan/Desktop/SEM7/DNP/GreenIt/Application/Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/johan/.nuget/packages/microsoft.aspnetcore.authorization/7.0.13/microsoft.aspnetcore.authorization.7.0.13.nupkg.sha512",
+    "/Users/johan/.nuget/packages/microsoft.aspnetcore.metadata/7.0.13/microsoft.aspnetcore.metadata.7.0.13.nupkg.sha512",
+    "/Users/johan/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/Users/johan/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.1/microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
+    "/Users/johan/.nuget/packages/microsoft.extensions.options/7.0.1/microsoft.extensions.options.7.0.1.nupkg.sha512",
+    "/Users/johan/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
