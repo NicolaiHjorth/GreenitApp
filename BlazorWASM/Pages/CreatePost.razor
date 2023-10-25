@@ -2,9 +2,12 @@
 @using Domain.Models
 @using Domain.DTOs
 @using HttpClients.ClientInterfaces
+@using System.Security.Claims
 @inject IPostService postService
 @inject IUserService userService
 @inject NavigationManager navMgr
+@attribute [Authorize]
+    
     @if (users == null)
     {
         <label>Loading users...</label>
@@ -44,6 +47,14 @@
     }
 
 @code {
+    
+    [CascadingParameter]
+    public Task<AuthenticationState> AuthState { get; set; } = null!;
+
+    private string? name;
+    private IEnumerable<Claim>? userClaims;
+    private bool isLoggedIn;
+    
     private IEnumerable<User>? users;
     private int? selectedUserId;
     private string postTitle = "";
@@ -63,16 +74,19 @@
             Console.WriteLine(e);
             msg = e.Message;
         }
+        AuthenticationState authState = await AuthState;
+        ClaimsPrincipal user = authState.User;
+        isLoggedIn = user.Identity != null;
+        
+        if (!isLoggedIn) return;
+        
+        userClaims = user.Claims;
+        name = user.Identity!.Name!;
     }
 
     private async Task Create()
     {
         msg = "";
-        if (selectedUserId == null)
-        {
-            msg = "You must select an assignee!";
-            return;
-        }
         if (string.IsNullOrEmpty(postTitle))
         {
             msg = "Title cannot be empty!";
@@ -97,4 +111,5 @@
             msg = e.Message;
         }
     } 
+    
 }
