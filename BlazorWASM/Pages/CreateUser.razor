@@ -3,9 +3,8 @@
 @inject IUserService userService
 @using Domain.DTOs
 
-<div class="card">
     <h3>Create User</h3>
-    <div class="form-group field">
+    <div class="form-group field mt-3">
         <label>User name:</label>
         <input type="text" @bind="username" @bind:event="oninput"/>
         @if (!string.IsNullOrEmpty(resultMsg))
@@ -13,10 +12,9 @@
             <label style="color: @color">@resultMsg</label>
         }
     </div>
-    <div class="button-row">
-        <button @onclick="Create" disabled="@(string.IsNullOrEmpty(username))" class="acceptbtn">Create</button>
+    <div class="button-row mt-3">
+        <button @onclick="Create" disabled="@(string.IsNullOrEmpty(username))" class="btn btn-success">Create</button>
     </div>
-</div>
 
 
 

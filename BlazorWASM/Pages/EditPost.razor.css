@@ -1,0 +1,38 @@
+
+.postCard {
+    padding-top: 15px;
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 700px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.padded {
+    padding-left: 30px !important;
+}
+
+title {
+    margin: 0;
+    padding: 0;
+    width: 590px
+}
+
+.content {
+    width: 600px;
+    height: 300px;
+}
+
+.timestamp {
+    font-size: 10px;
+    margin: 0;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.editBtn{
+    margin-bottom: 15px;
+}
+
+

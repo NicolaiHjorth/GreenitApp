@@ -23,27 +23,13 @@
     {
       "Id": 6,
       "UserName": "Dillermand"
+    },
+    {
+      "Id": 7,
+      "UserName": "123"
     }
   ],
   "Posts": [
-    {
-      "Id": 2,
-      "Owner": {
-        "Id": 1,
-        "UserName": "Troels"
-      },
-      "Title": "First Post",
-      "Content": "This is content!"
-    },
-    {
-      "Id": 5,
-      "Owner": {
-        "Id": 5,
-        "UserName": "Torben"
-      },
-      "Title": "wassssup",
-      "Content": "kage1234"
-    },
     {
       "Id": 1,
       "Owner": {
@@ -51,7 +37,8 @@
         "UserName": "Troels"
       },
       "Title": "fl\u00F8dekage1234",
-      "Content": "\u00E9t eller andet bullshit!"
+      "Content": "\u00E9t eller andet bullshit!",
+      "TimeStamp": "2023-10-24 21.53.52"
     },
     {
       "Id": 3,
@@ -60,16 +47,8 @@
         "UserName": "Dillermand"
       },
       "Title": "Gedeost er klammo or what?",
-      "Content": "Hvad syntes i? m\u00E5ske?"
-    },
-    {
-      "Id": 7,
-      "Owner": {
-        "Id": 6,
-        "UserName": "Dillermand"
-      },
-      "Title": "gedehams",
-      "Content": "-kadjg\u00F8aksjfa\u00F8KJg\u00F8a\u003Ckdjg\u00F8zsdjg\u00F8alklefjh\u00E6lksdfjh\u00F8lksdjf\u00F8hlkas\u00F8rhjs\u00F8dlkjh\u00F8sdjfh\u00F8klsdjh\u00F8lksjdhf\u00F8lkgha\u00F8roioh\u00F8oaeirohj\u00F8lilasrhg\u00F8goihseoihjse\u00F8ihj\u00F8\u00E6lkdfhjlksdjhh\u00F8lksdj\u00F8oihw\u00F8ioh\u00F8apihf\u00F8oihga\u00F8pojg\u0027popOHJE\u0027\u00D8OHG\u0027JGAJ\u00D8\u0027GA\u00D8JGA\u00D8JAGF\u00D8JAGS\u00D8J"
+      "Content": "Hvad syntes i? m\u00E5ske?",
+      "TimeStamp": "2023-10-24 21.53.52"
     },
     {
       "Id": 6,
@@ -78,7 +57,8 @@
         "UserName": "Lars"
       },
       "Title": "\u00E6lakj",
-      "Content": ".alskdjakjfl\u00E6kajsf"
+      "Content": ".alskdjakjfl\u00E6kajsf",
+      "TimeStamp": "2023-10-24 21.53.52"
     },
     {
       "Id": 4,
@@ -87,7 +67,68 @@
         "UserName": "Sven"
       },
       "Title": "ostehaps",
-      "Content": "Sap er noget jens cramer har opfundet"
+      "Content": "Sap er noget jens cramer har opfundet",
+      "TimeStamp": "2023-10-24 21.53.52"
+    },
+    {
+      "Id": 2,
+      "Owner": {
+        "Id": 1,
+        "UserName": "Troels"
+      },
+      "Title": "First Post",
+      "Content": "This is content!",
+      "TimeStamp": "2023-10-24 21.53.52"
+    },
+    {
+      "Id": 8,
+      "Owner": {
+        "Id": 1,
+        "UserName": "Troels"
+      },
+      "Title": "TESTESTE",
+      "Content": "123",
+      "TimeStamp": "2023-10-24 21.53.52"
+    },
+    {
+      "Id": 9,
+      "Owner": {
+        "Id": 2,
+        "UserName": "Sven"
+      },
+      "Title": "123",
+      "Content": "123",
+      "TimeStamp": "2023-10-24 21.53.52"
+    },
+    {
+      "Id": 5,
+      "Owner": {
+        "Id": 5,
+        "UserName": "Torben"
+      },
+      "Title": "This was",
+      "Content": "This was content",
+      "TimeStamp": "2023-10-24 22.50.04"
+    },
+    {
+      "Id": 10,
+      "Owner": {
+        "Id": 2,
+        "UserName": "Sven"
+      },
+      "Title": "johan",
+      "Content": "johan1",
+      "TimeStamp": "2023-10-24 22.50.17"
+    },
+    {
+      "Id": 7,
+      "Owner": {
+        "Id": 6,
+        "UserName": "Dillermand"
+      },
+      "Title": "gedehams",
+      "Content": "kadjg\u00F8aksjfa\u00F8KJg\u00F8a\u003Ckdjg\u00F8zsdjg\u00F8alklefjh\u00E6lksdfjh\u00F8lksdjf\u00F8hlkas\u00F8rhjs\u00F8dlkjh\u00F8sdjfh\u00F8klsdjh\u00F8lksjdhf\u00F8lkgha\u00F8roioh\u00F8oaeirohj\u00F8lilasrhg\u00F8goihseoihjse\u00F8ihj\u00F8\u00E6lkdfhjlksdjhh\u00F8lksdj\u00F8oihw\u00F8ioh\u00F8apihf\u00F8oihga\u00F8pojg\u0027popOHJE\u0027\u00D8OHG\u0027JGAJ\u00D8\u0027GA\u00D8JGA\u00D8JAGF\u00D8JAGS\u00D8J",
+      "TimeStamp": "2023-10-24 22.58.50"
     }
   ]
 }

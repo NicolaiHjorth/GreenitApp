@@ -27,19 +27,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nicol\\.nuget\\packages\\": {}
+    "/Users/johan/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\HttpClients\\HttpClients.csproj",
+      "projectUniqueName": "/Users/johan/Desktop/SEM7/DNP/GreenIt/HttpClients/HttpClients.csproj",
       "projectName": "HttpClients",
-      "projectPath": "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\HttpClients\\HttpClients.csproj",
-      "packagesPath": "C:\\Users\\nicol\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\HttpClients\\obj\\",
+      "projectPath": "/Users/johan/Desktop/SEM7/DNP/GreenIt/HttpClients/HttpClients.csproj",
+      "packagesPath": "/Users/johan/.nuget/packages/",
+      "outputPath": "/Users/johan/Desktop/SEM7/DNP/GreenIt/HttpClients/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\nicol\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/johan/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -51,8 +51,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\Domain\\Domain.csproj"
+            "/Users/johan/Desktop/SEM7/DNP/GreenIt/Domain/Domain.csproj": {
+              "projectPath": "/Users/johan/Desktop/SEM7/DNP/GreenIt/Domain/Domain.csproj"
             }
           }
         }
@@ -82,7 +82,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -4,30 +4,34 @@
 @inject IPostService postService
 
 <h3>Posts</h3>
-<div class="filter-bar">
-    <div class="filters-container">
-        <button @onclick="@(() => doShowFilters = !doShowFilters)" alt="Funnel">@(doShowFilters ? "Hide Filters" : "Show Filters")</button>
+<div class="d-flex flex-row" style="margin: auto">
+    <div style="margin-right: 15px">
+        <button style="width: 110px" @onclick="@(() => doShowFilters = !doShowFilters)">@(doShowFilters ? "Hide Filters" : "Show Filters")</button>
+    </div>
+    <div>
         @if (doShowFilters)
         {
+            <div class="d-flex flex-row">
             <div class="filter">
                 <label>Username:</label>
-                <input type="text" @bind="usernameFilter"/>
+                <input type="text" @bind="usernameFilter" style="margin-right: 15px"/>
             </div>
             <div class="filter">
                 <label>Title contains:</label>
-                <input type="text" @bind="titleContainsFilter"/>
+                <input type="text" @bind="titleContainsFilter" style="margin-right: 15px"/>
             </div>
             <div class="filter">
                 <label>Content contains:</label>
-                <input type="text" @bind="contentContainsFilter"/>
+                <input type="text" @bind="contentContainsFilter" style="margin-right: 5px"/>
+            </div>
+            <div>
+                <button @onclick="LoadPosts">Apply filters</button>
+            </div>
             </div>
         }
     </div>
 </div>
 
-<div>
-    <button @onclick="LoadPosts">Load</button>
-</div>
 
 @if (posts == null)
 {
@@ -38,25 +42,13 @@ else if (!posts.Any())
 }
 else
 {
-    <table class="table">
-        <thead>
-        <tr>
-          
-            <th>Username</th>
-            <th>Title</th>
-     
-        </tr>
-        </thead>
-        <tbody>
-        @foreach (var item in posts)
-        {
-            <tr>
-                <td>@item.Owner.UserName</td>
-                <td><a href ="/viewSinglePost/@item.Id"> @item.Title</a></td>
-            </tr>
-        }
-        </tbody>
-    </table>
+
+    @foreach (var item in posts)
+    {
+        <a href="/viewSinglePost/@item.Id" style="text-decoration: none; color: black;">
+        <PostCard Title="@item.Title"  UserName="@item.Owner.UserName" ItemId="@item.Id" TimeStamp="@item.TimeStamp"/>
+        </a>
+    }
 }
 @if (!string.IsNullOrEmpty(msg))
 {
@@ -68,16 +60,25 @@ else
     private string msg = "";
 
     private bool doShowFilters = false;
-    
+
     private string? usernameFilter;
     private string? contentContainsFilter;
     private string? titleContainsFilter;
+    
+    
+    protected override async Task OnInitializedAsync()
+    {
+    // This method will be invoked when the page is first initialized.
+        await LoadPosts();
+    }
 
     private async Task LoadPosts()
     {
         try
         {
             posts = await postService.GetAsync(usernameFilter, titleContainsFilter, contentContainsFilter);
+            
+            posts = posts.OrderByDescending(post => post.TimeStamp);
         }
         catch (Exception e)
         {
@@ -85,4 +86,6 @@ else
             msg = e.Message;
         }
     }
+    
+
 }

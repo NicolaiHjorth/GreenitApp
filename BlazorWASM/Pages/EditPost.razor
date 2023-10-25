@@ -5,31 +5,31 @@
 @inject IPostService postService
 @inject NavigationManager navMgr
 
-<div class="card">
     @if (dto == null)
     {
         <label>Loading post data..</label>
     }
     else
     {
+        
         <h3>Update Posts</h3>
-        <div class="form-group field">
-            <label>Title:</label>
-            <input type="text" @bind="dto.Title"/>
+        <div class="border border-dark postCard padded">
+            <div class="padded">
+                <input class="title" @bind="dto.Title"/>
+                <p class="timestamp"></p>
+                <p></p>
+                <textarea @bind="dto.Content" placeholder="Write the content of your post here" class="content"></textarea>
+                    <div class="button-row">
+                        <button @onclick="UpdateAsync" class="editBtn btn btn-success">Update</button>
+                    </div>
+            </div>
         </div>
-        <div class="form-group field">
-            <label>Content:</label>
-            <input type="text" @bind="dto.Content"/>
-        </div>
-        <div class="button-row">
-            <button @onclick="UpdateAsync">Update</button>
-        </div>
+        
     }
     @if (!string.IsNullOrEmpty(msg))
     {
         <label style="color: red">@msg</label>
     }
-</div>
 
 @code {
     [Parameter]

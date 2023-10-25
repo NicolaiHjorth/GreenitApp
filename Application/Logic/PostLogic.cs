@@ -25,7 +25,7 @@ public class PostLogic : IPostLogic
         }
 
         
-        Post post = new Post(user, dto.Title, dto.Content);
+        Post post = new Post(user, dto.Title, dto.Content, GetTimestamp(DateTime.Now));
         ValidatePost(post);
         Post created = await postDao.CreateAsync(post);
         return created;
@@ -58,8 +58,9 @@ public class PostLogic : IPostLogic
         User userToUse = user ?? existing.Owner;
         string titleToUse = dto.Title ?? existing.Title;
         string contentToUse = dto.Content ?? existing.Content;
+        string timeStampToUse = GetTimestamp(DateTime.Now);
 
-        Post updated = new(userToUse, titleToUse, contentToUse)
+        Post updated = new(userToUse, titleToUse, contentToUse, timeStampToUse)
         {
             Id = existing.Id,
         };
@@ -95,5 +96,13 @@ public class PostLogic : IPostLogic
     private void ValidatePost(Post dto)
     {
         if (string.IsNullOrEmpty(dto.Title)) throw new Exception("Title cannot be empty.");
+    }
+    private static string GetTimestamp(DateTime dateTime)
+    {
+        // Format the DateTime as a string in a desired format
+        // For example, you can use the "yyyy-MM-dd HH:mm:ss" format
+        string timestamp = dateTime.ToString("yyyy-MM-dd HH:mm:ss");
+
+        return timestamp;
     }
 }

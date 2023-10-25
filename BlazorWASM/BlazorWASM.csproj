@@ -15,4 +15,9 @@
       <ProjectReference Include="..\HttpClients\HttpClients.csproj" />
     </ItemGroup>
 
+
+    <ItemGroup>
+      <Folder Include="Pages\Components\" />
+    </ItemGroup>
+
 </Project>

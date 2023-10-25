@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\nicol\\.nuget\\packages\\": {}
+    "/Users/johan/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\Domain\\Domain.csproj",
+      "projectUniqueName": "/Users/johan/Desktop/SEM7/DNP/GreenIt/Domain/Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\Domain\\Domain.csproj",
-      "packagesPath": "C:\\Users\\nicol\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\Domain\\obj\\",
+      "projectPath": "/Users/johan/Desktop/SEM7/DNP/GreenIt/Domain/Domain.csproj",
+      "packagesPath": "/Users/johan/.nuget/packages/",
+      "outputPath": "/Users/johan/Desktop/SEM7/DNP/GreenIt/Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\nicol\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/johan/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
       }
     }
   }

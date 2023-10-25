@@ -513,19 +513,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nicol\\.nuget\\packages\\": {}
+    "/Users/johan/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "/Users/johan/Desktop/SEM7/DNP/GreenIt/WebAPI/WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\WebAPI\\WebAPI.csproj",
-      "packagesPath": "C:\\Users\\nicol\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\WebAPI\\obj\\",
+      "projectPath": "/Users/johan/Desktop/SEM7/DNP/GreenIt/WebAPI/WebAPI.csproj",
+      "packagesPath": "/Users/johan/.nuget/packages/",
+      "outputPath": "/Users/johan/Desktop/SEM7/DNP/GreenIt/WebAPI/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\nicol\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/johan/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -537,11 +537,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\Application\\Application.csproj"
+            "/Users/johan/Desktop/SEM7/DNP/GreenIt/Application/Application.csproj": {
+              "projectPath": "/Users/johan/Desktop/SEM7/DNP/GreenIt/Application/Application.csproj"
             },
-            "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\FileData\\FileData.csproj": {
-              "projectPath": "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\FileData\\FileData.csproj"
+            "/Users/johan/Desktop/SEM7/DNP/GreenIt/FileData/FileData.csproj": {
+              "projectPath": "/Users/johan/Desktop/SEM7/DNP/GreenIt/FileData/FileData.csproj"
             }
           }
         }
@@ -584,7 +584,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
       }
     }
   }
