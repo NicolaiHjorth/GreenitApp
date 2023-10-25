@@ -1,3 +1,38 @@
+/* /Pages/Components/PostCard.razor.rz.scp.css */
+
+.postCard[b-iiogxanwwd] {
+    padding-top: 15px;
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 700px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.padded[b-iiogxanwwd] {
+    padding-left: 30px;
+    padding-right: 30px;
+    word-wrap: break-word;
+}
+
+h3[b-iiogxanwwd] {
+    margin: 0;
+    padding: 0;
+}
+
+.timestamp[b-iiogxanwwd] {
+    font-size: 10px;
+    margin: 0;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.editBtn[b-iiogxanwwd]{
+    margin-bottom: 15px;
+}
+
+
 /* /Pages/EditPost.razor.rz.scp.css */
 
 .postCard[b-n580juhvg4] {
@@ -33,41 +68,6 @@ title[b-n580juhvg4] {
 }
 
 .editBtn[b-n580juhvg4]{
-    margin-bottom: 15px;
-}
-
-
-/* /Pages/PostCard.razor.rz.scp.css */
-
-.postCard[b-qa9phm4z2i] {
-    padding-top: 15px;
-    border: 1px solid black;
-    border-radius: 25px;
-    width: 700px;
-    margin: auto;
-    margin-top: 20px;
-}
-
-.padded[b-qa9phm4z2i] {
-    padding-left: 30px;
-    padding-right: 30px;
-    word-wrap: break-word;
-}
-
-h3[b-qa9phm4z2i] {
-    margin: 0;
-    padding: 0;
-}
-
-.timestamp[b-qa9phm4z2i] {
-    font-size: 10px;
-    margin: 0;
-    margin-top: 3px;
-    margin-bottom: 10px;
-    padding: 0;
-}
-
-.editBtn[b-qa9phm4z2i]{
     margin-bottom: 15px;
 }
 

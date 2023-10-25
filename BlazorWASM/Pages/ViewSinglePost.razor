@@ -1,16 +1,20 @@
 ﻿@page "/ViewSinglePost/{id:int}"
 @using Domain.DTOs
+@using Domain.Models
+@using BlazorWASM.Pages.Components
 @using HttpClients.ClientInterfaces
+
 @inject IPostService postService
 
 
-    @if (dto == null)
+    @if (postDTO == null)
     {
         <label>Loading post data..</label>
     }
     else
     {
-        <PostCard Title="@dto.Title"  UserName="Fake username" ItemId="@dto.Id" Content="@dto.Content" editAllowed="true"/>
+        
+        <PostCard Title="@title"  UserName="@userName" ItemId="@id" Content="@content" editAllowed="true"/>
     }
     @if (!string.IsNullOrEmpty(msg))
     {
@@ -25,24 +29,32 @@
     [Parameter]
     public int Id { get; set; }
 
-    private PostUpdateDto dto = null!;
+    private string content;
+    private string title;
+    private string userName;
+    private int id;
+
+    private PostBasicDto postDTO;
     private string msg = "";
     
     
     protected override async Task OnInitializedAsync()
     {
-        msg = "";
+    // This method will be invoked when the page is first initialized.
+        await LoadPosts();
+    }
+
+    private async Task LoadPosts()
+    {
         try
         {
-            PostBasicDto postData = await postService.GetByIdAsync(Id);
-            
+            postDTO = await postService.GetByIdAsync(Id);
 
-            dto = new(Id)
-            {
-                Title = postData.Title,
-                Content = postData.Content
-                    
-            };
+            content = postDTO.Content;
+            title = postDTO.Title;
+            userName = postDTO.OwnerName;
+            id = postDTO.Id;
+
         }
         catch (Exception e)
         {
@@ -50,4 +62,7 @@
             msg = e.Message;
         }
     }
+
+
+
 }
