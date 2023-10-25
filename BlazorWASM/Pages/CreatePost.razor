@@ -27,16 +27,6 @@
             <label>Content</label><br/>
             <textarea @bind="postContent" placeholder="Write the content of your post here" style="width: 400px; height: 300px;"></textarea>
         </div>
-        <div class="form-group field">
-            <label>User:</label>
-            <select @bind="selectedUserId">
-                <option>Choose</option>
-                @foreach (User user in users)
-                {
-                    <option value="@user.Id">@user.UserName</option>
-                }
-            </select>
-        </div>
         <div class="button-row">
             @if (!string.IsNullOrEmpty(msg))
             {
@@ -56,7 +46,7 @@
     private bool isLoggedIn;
     
     private IEnumerable<User>? users;
-    private int? selectedUserId;
+    private int userId;
     private string postTitle = "";
     private string postContent = "";
 
@@ -81,7 +71,15 @@
         if (!isLoggedIn) return;
         
         userClaims = user.Claims;
-        name = user.Identity!.Name!;
+        name = user.Identity!.Name;
+        
+        var idClaim = userClaims.FirstOrDefault(claim => claim.Type == "id");
+        if (idClaim != null)
+        {
+            userId = int.Parse(idClaim.Value);
+        }
+
+
     }
 
     private async Task Create()
@@ -101,7 +99,7 @@
 
         try
         {
-            PostCreationDto dto = new((int)selectedUserId, postTitle, postContent, "");
+            PostCreationDto dto = new(userId, postTitle, postContent, "");
             await postService.CreateAsync(dto);
             navMgr.NavigateTo("/ViewPosts");
         }
