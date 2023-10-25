@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8z0jY0RpQr9K4ms/lmpPEBsLUeAQkas3vuEcP9QeVk4=",
+  "Hash": "EOdZkkokGHOL2+zdJiTFiJOjBGyK9847Vq9GvCwPWGc=",
   "Source": "BlazorWASM",
   "BasePath": "/",
   "Mode": "Root",
@@ -286,7 +286,24 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/johan/.nuget/packages/microsoft.aspnetcore.authorization/7.0.9/lib/net7.0/Microsoft.AspNetCore.Authorization.dll"
+      "OriginalItemSpec": "/Users/johan/.nuget/packages/microsoft.aspnetcore.authorization/7.0.13/lib/net7.0/Microsoft.AspNetCore.Authorization.dll"
+    },
+    {
+      "Identity": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Authorization.dll",
+      "SourceId": "BlazorWASM",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/johan/.nuget/packages/microsoft.aspnetcore.components.authorization/7.0.13/lib/net7.0/Microsoft.AspNetCore.Components.Authorization.dll"
     },
     {
       "Identity": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll",
@@ -303,7 +320,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/johan/.nuget/packages/microsoft.aspnetcore.components/7.0.9/lib/net7.0/Microsoft.AspNetCore.Components.dll"
+      "OriginalItemSpec": "/Users/johan/.nuget/packages/microsoft.aspnetcore.components/7.0.13/lib/net7.0/Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll",
@@ -371,7 +388,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/johan/.nuget/packages/microsoft.aspnetcore.metadata/7.0.9/lib/net7.0/Microsoft.AspNetCore.Metadata.dll"
+      "OriginalItemSpec": "/Users/johan/.nuget/packages/microsoft.aspnetcore.metadata/7.0.13/lib/net7.0/Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/Microsoft.CSharp.dll",
@@ -4012,6 +4029,23 @@
       "OriginalItemSpec": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/System.IO.Pipes.AccessControl.dll"
     },
     {
+      "Identity": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/obj/Debug/net7.0/build-gz/8AmmpJkG.gz",
+      "SourceId": "BlazorWASM",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll"
+    },
+    {
       "Identity": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/obj/Debug/net7.0/build-gz/9hmrgGcn.gz",
       "SourceId": "BlazorWASM",
       "SourceType": "Computed",
@@ -4369,6 +4403,23 @@
       "OriginalItemSpec": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/System.Console.dll"
     },
     {
+      "Identity": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/obj/Debug/net7.0/build-gz/CXnfJaft.gz",
+      "SourceId": "BlazorWASM",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Authorization.dll"
+    },
+    {
       "Identity": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/obj/Debug/net7.0/build-gz/D1puBo8G.gz",
       "SourceId": "BlazorWASM",
       "SourceType": "Computed",
@@ -4556,6 +4607,23 @@
       "OriginalItemSpec": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/System.Formats.Tar.dll"
     },
     {
+      "Identity": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/obj/Debug/net7.0/build-gz/EWOfZyBv.gz",
+      "SourceId": "BlazorWASM",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Metadata.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Metadata.dll"
+    },
+    {
       "Identity": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/obj/Debug/net7.0/build-gz/EZSJ2o5+.gz",
       "SourceId": "BlazorWASM",
       "SourceType": "Computed",
@@ -4707,6 +4775,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/System.Diagnostics.Debug.dll"
+    },
+    {
+      "Identity": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/obj/Debug/net7.0/build-gz/GFxfBgGn.gz",
+      "SourceId": "BlazorWASM",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.dll"
     },
     {
       "Identity": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/obj/Debug/net7.0/build-gz/gi4pwLI9.gz",
@@ -5183,23 +5268,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/System.IO.UnmanagedMemoryStream.dll"
-    },
-    {
-      "Identity": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/obj/Debug/net7.0/build-gz/kZsWYew9.gz",
-      "SourceId": "BlazorWASM",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/obj/Debug/net7.0/build-gz/l09MYtIW.gz",
@@ -6698,23 +6766,6 @@
       "OriginalItemSpec": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/System.Formats.Asn1.dll"
     },
     {
-      "Identity": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/obj/Debug/net7.0/build-gz/wqbMp1sk.gz",
-      "SourceId": "BlazorWASM",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Metadata.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Metadata.dll"
-    },
-    {
       "Identity": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/obj/Debug/net7.0/build-gz/xGm3KmBw.gz",
       "SourceId": "BlazorWASM",
       "SourceType": "Computed",
@@ -6985,23 +7036,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/dotnet.timezones.blat"
-    },
-    {
-      "Identity": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/obj/Debug/net7.0/build-gz/zSxAGPCm.gz",
-      "SourceId": "BlazorWASM",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.dll"
     },
     {
       "Identity": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/obj/Debug/net7.0/scopedcss/bundle/BlazorWASM.styles.css",

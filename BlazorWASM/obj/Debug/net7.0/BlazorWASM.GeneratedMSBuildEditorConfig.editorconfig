@@ -52,13 +52,13 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/Pages/Components/PostCard.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29tcG9uZW50cy9Qb3N0Q2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-iiogxanwwd
+
 [/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/Pages/EditPost.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRWRpdFBvc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-n580juhvg4
-
-[/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/Pages/PostCard.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUG9zdENhcmQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-qa9phm4z2i
 
 [/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
