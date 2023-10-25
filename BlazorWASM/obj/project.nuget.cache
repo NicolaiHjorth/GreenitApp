@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "K2kAIG979WuCqsFTFrJY77EciHK/opUSFPnzzZZN7uoM+cptE7NeEVX5t0GahaZsqEc/NiJs5HbMUTxe1Egqig==",
+  "dgSpecHash": "U6oQ5aT1PRNZSHVcjsmer5w/CAf04BSgWhon+0P8mVb2yIzuyNdyfRbaAGDrUkm9qAFc0nS2rrWARoTEagjHVA==",
   "success": true,
   "projectFilePath": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/BlazorWASM.csproj",
   "expectedPackageFiles": [
@@ -32,7 +32,7 @@
     "/Users/johan/.nuget/packages/system.io.pipelines/7.0.0/system.io.pipelines.7.0.0.nupkg.sha512",
     "/Users/johan/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
     "/Users/johan/.nuget/packages/system.text.json/7.0.0/system.text.json.7.0.0.nupkg.sha512",
-    "/Users/johan/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/7.0.10/microsoft.netcore.app.runtime.mono.browser-wasm.7.0.10.nupkg.sha512"
+    "/Users/johan/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/7.0.13/microsoft.netcore.app.runtime.mono.browser-wasm.7.0.13.nupkg.sha512"
   ],
   "logs": []
 }
