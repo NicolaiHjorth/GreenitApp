@@ -297,7 +297,7 @@
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Alternative</AssetRole>
-      <RelatedAsset>/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/bin/Debug/net7.0/wwwroot/_framework/blazor.webassembly.js</RelatedAsset>
+      <RelatedAsset>C:\Users\mikke\RiderProjects\GreenitApp\BlazorWASM\bin\Debug\net7.0\wwwroot\_framework\blazor.webassembly.js</RelatedAsset>
       <AssetTraitName>Content-Encoding</AssetTraitName>
       <AssetTraitValue>gzip</AssetTraitValue>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

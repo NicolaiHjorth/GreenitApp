@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/BlazorWASM.csproj": {}
+    "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\BlazorWASM\\BlazorWASM.csproj": {}
   },
   "projects": {
-    "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/BlazorWASM.csproj": {
+    "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\BlazorWASM\\BlazorWASM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/BlazorWASM.csproj",
+        "projectUniqueName": "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\BlazorWASM\\BlazorWASM.csproj",
         "projectName": "BlazorWASM",
-        "projectPath": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/BlazorWASM.csproj",
-        "packagesPath": "/Users/johan/.nuget/packages/",
-        "outputPath": "/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/obj/",
+        "projectPath": "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\BlazorWASM\\BlazorWASM.csproj",
+        "packagesPath": "C:\\Users\\mikke\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\BlazorWASM\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/johan/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\mikke\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -26,8 +26,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/johan/Desktop/SEM7/DNP/GreenIt/HttpClients/HttpClients.csproj": {
-                "projectPath": "/Users/johan/Desktop/SEM7/DNP/GreenIt/HttpClients/HttpClients.csproj"
+              "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\HttpClients\\HttpClients.csproj": {
+                "projectPath": "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\HttpClients\\HttpClients.csproj"
               }
             }
           }
@@ -82,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.403/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -91,17 +91,17 @@
         }
       }
     },
-    "/Users/johan/Desktop/SEM7/DNP/GreenIt/Domain/Domain.csproj": {
+    "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/johan/Desktop/SEM7/DNP/GreenIt/Domain/Domain.csproj",
+        "projectUniqueName": "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/Users/johan/Desktop/SEM7/DNP/GreenIt/Domain/Domain.csproj",
-        "packagesPath": "/Users/johan/.nuget/packages/",
-        "outputPath": "/Users/johan/Desktop/SEM7/DNP/GreenIt/Domain/obj/",
+        "projectPath": "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\mikke\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/johan/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\mikke\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -146,21 +146,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.403/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/johan/Desktop/SEM7/DNP/GreenIt/HttpClients/HttpClients.csproj": {
+    "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\HttpClients\\HttpClients.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/johan/Desktop/SEM7/DNP/GreenIt/HttpClients/HttpClients.csproj",
+        "projectUniqueName": "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\HttpClients\\HttpClients.csproj",
         "projectName": "HttpClients",
-        "projectPath": "/Users/johan/Desktop/SEM7/DNP/GreenIt/HttpClients/HttpClients.csproj",
-        "packagesPath": "/Users/johan/.nuget/packages/",
-        "outputPath": "/Users/johan/Desktop/SEM7/DNP/GreenIt/HttpClients/obj/",
+        "projectPath": "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\HttpClients\\HttpClients.csproj",
+        "packagesPath": "C:\\Users\\mikke\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\HttpClients\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/johan/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\mikke\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -172,8 +172,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/johan/Desktop/SEM7/DNP/GreenIt/Domain/Domain.csproj": {
-                "projectPath": "/Users/johan/Desktop/SEM7/DNP/GreenIt/Domain/Domain.csproj"
+              "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\Domain\\Domain.csproj"
               }
             }
           }
@@ -203,7 +203,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.403/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

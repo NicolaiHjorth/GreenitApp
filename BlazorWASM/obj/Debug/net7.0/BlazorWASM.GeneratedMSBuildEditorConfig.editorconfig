@@ -9,65 +9,69 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = BlazorWASM
 build_property.RootNamespace = BlazorWASM
-build_property.ProjectDir = /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/
+build_property.ProjectDir = C:\Users\mikke\RiderProjects\GreenitApp\BlazorWASM\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM
+build_property.MSBuildProjectDirectory = C:\Users\mikke\RiderProjects\GreenitApp\BlazorWASM
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/App.razor]
+[C:/Users/mikke/RiderProjects/GreenitApp/BlazorWASM/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/Pages/CreatePost.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ3JlYXRlUG9zdC5yYXpvcg==
+[C:/Users/mikke/RiderProjects/GreenitApp/BlazorWASM/Pages/Components/LoginButtons.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xMb2dpbkJ1dHRvbnMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/Pages/CreateUser.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ3JlYXRlVXNlci5yYXpvcg==
+[C:/Users/mikke/RiderProjects/GreenitApp/BlazorWASM/Pages/CreatePost.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlUG9zdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+[C:/Users/mikke/RiderProjects/GreenitApp/BlazorWASM/Pages/CreateUser.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlVXNlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/Pages/ViewPosts.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVmlld1Bvc3RzLnJhem9y
+[C:/Users/mikke/RiderProjects/GreenitApp/BlazorWASM/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/Pages/ViewSinglePost.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVmlld1NpbmdsZVBvc3QucmF6b3I=
+[C:/Users/mikke/RiderProjects/GreenitApp/BlazorWASM/Pages/ViewPosts.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1Bvc3RzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/Pages/ViewUsers.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVmlld1VzZXJzLnJhem9y
+[C:/Users/mikke/RiderProjects/GreenitApp/BlazorWASM/Pages/ViewSinglePost.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1NpbmdsZVBvc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/Shared/SurveyPrompt.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1N1cnZleVByb21wdC5yYXpvcg==
+[C:/Users/mikke/RiderProjects/GreenitApp/BlazorWASM/Pages/ViewUsers.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1VzZXJzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/_Imports.razor]
+[C:/Users/mikke/RiderProjects/GreenitApp/BlazorWASM/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mikke/RiderProjects/GreenitApp/BlazorWASM/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/Pages/Components/PostCard.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29tcG9uZW50cy9Qb3N0Q2FyZC5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = b-iiogxanwwd
+[C:/Users/mikke/RiderProjects/GreenitApp/BlazorWASM/Pages/Components/PostCard.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xQb3N0Q2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-m4n3lrquzy
 
-[/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/Pages/EditPost.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRWRpdFBvc3QucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-n580juhvg4
+[C:/Users/mikke/RiderProjects/GreenitApp/BlazorWASM/Pages/EditPost.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFBvc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-2yflwn3v1z
 
-[/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/Pages/Login.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTG9naW4ucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-540j7qbdug
+[C:/Users/mikke/RiderProjects/GreenitApp/BlazorWASM/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-xm4hp2nt19
 
-[/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/Shared/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-6v8oqhpdl4
+[C:/Users/mikke/RiderProjects/GreenitApp/BlazorWASM/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-jk00ermrez
 
-[/Users/johan/Desktop/SEM7/DNP/GreenIt/BlazorWASM/Shared/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-v7u2np63r8
+[C:/Users/mikke/RiderProjects/GreenitApp/BlazorWASM/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-69rflur3ak

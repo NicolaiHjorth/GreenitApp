@@ -340,19 +340,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/johan/.nuget/packages/": {}
+    "C:\\Users\\mikke\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/johan/Desktop/SEM7/DNP/GreenIt/FileData/FileData.csproj",
+      "projectUniqueName": "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\FileData\\FileData.csproj",
       "projectName": "FileData",
-      "projectPath": "/Users/johan/Desktop/SEM7/DNP/GreenIt/FileData/FileData.csproj",
-      "packagesPath": "/Users/johan/.nuget/packages/",
-      "outputPath": "/Users/johan/Desktop/SEM7/DNP/GreenIt/FileData/obj/",
+      "projectPath": "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\FileData\\FileData.csproj",
+      "packagesPath": "C:\\Users\\mikke\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\FileData\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/johan/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\mikke\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -364,8 +364,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/johan/Desktop/SEM7/DNP/GreenIt/Application/Application.csproj": {
-              "projectPath": "/Users/johan/Desktop/SEM7/DNP/GreenIt/Application/Application.csproj"
+            "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\Application\\Application.csproj"
             }
           }
         }
@@ -395,7 +395,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.403/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

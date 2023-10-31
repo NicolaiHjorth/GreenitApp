@@ -55,6 +55,30 @@
       "Email": null,
       "Age": 0,
       "Role": null
+    },
+    {
+      "Id": 8,
+      "UserName": "PULLE",
+      "Password": null,
+      "Email": null,
+      "Age": 0,
+      "Role": null
+    },
+    {
+      "Id": 9,
+      "UserName": "fjolle",
+      "Password": "bolle",
+      "Email": "hansi@hansi.com",
+      "Age": 69,
+      "Role": "user"
+    },
+    {
+      "Id": 10,
+      "UserName": "kage",
+      "Password": "kage",
+      "Email": "kage@kage.dk",
+      "Age": 19,
+      "Role": "user"
     }
   ],
   "Posts": [
@@ -211,6 +235,34 @@
       "Title": "KAGEKAGE",
       "Content": "KAGEKAGEKAGE",
       "TimeStamp": "2023-10-25 12.21.45"
+    },
+    {
+      "Id": 12,
+      "Owner": {
+        "Id": 2,
+        "UserName": "Sven",
+        "Password": null,
+        "Email": null,
+        "Age": 0,
+        "Role": null
+      },
+      "Title": "hejhej",
+      "Content": "kageasdasd",
+      "TimeStamp": "2023-10-25 14:28:51"
+    },
+    {
+      "Id": 13,
+      "Owner": {
+        "Id": 10,
+        "UserName": "kage",
+        "Password": "kage",
+        "Email": "kage@kage.dk",
+        "Age": 19,
+        "Role": "user"
+      },
+      "Title": "PIKMAND!",
+      "Content": "HEYHEYSAN",
+      "TimeStamp": "2023-10-25 16:53:34"
     }
   ]
 }

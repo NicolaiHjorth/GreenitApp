@@ -3,6 +3,7 @@
 @using Domain.Models
 @using BlazorWASM.Pages.Components
 @using HttpClients.ClientInterfaces
+@using System.Security.Claims
 
 @inject IPostService postService
 
@@ -13,8 +14,12 @@
     }
     else
     {
+        if (userName.Equals(name))
+        {
+            editAllowed = true;
+        }
         
-        <PostCard Title="@title"  UserName="@userName" ItemId="@id" Content="@content" editAllowed="true"/>
+        <PostCard Title="@title"  UserName="@userName" ItemId="@id" Content="@content" editAllowed="@editAllowed"/>
     }
     @if (!string.IsNullOrEmpty(msg))
     {
@@ -28,11 +33,19 @@
 @code {
     [Parameter]
     public int Id { get; set; }
+    [CascadingParameter]
+    public Task<AuthenticationState> AuthState { get; set; } = null!;
+
+    private string? name;
+    private IEnumerable<Claim>? userClaims;
+    private bool isLoggedIn;
 
     private string content;
+    private bool editAllowed = false;
     private string title;
     private string userName;
     private int id;
+    private int userId;
 
     private PostBasicDto postDTO;
     private string msg = "";
@@ -42,6 +55,20 @@
     {
     // This method will be invoked when the page is first initialized.
         await LoadPosts();
+        AuthenticationState authState = await AuthState;
+        ClaimsPrincipal user = authState.User;
+        isLoggedIn = user.Identity != null;
+        
+        if (!isLoggedIn) return;
+        
+        userClaims = user.Claims;
+        name = user.Identity!.Name;
+        
+        var idClaim = userClaims.FirstOrDefault(claim => claim.Type == "id");
+        if (idClaim != null)
+        {
+            userId = int.Parse(idClaim.Value);
+        }
     }
 
     private async Task LoadPosts()

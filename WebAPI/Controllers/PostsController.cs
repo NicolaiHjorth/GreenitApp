@@ -7,7 +7,6 @@ using Microsoft.AspNetCore.Mvc;
 namespace WebAPI.Controllers;
 
 [ApiController]
-[Authorize]
 [Route("[controller]")]
 public class PostsController : ControllerBase
 {
@@ -32,7 +31,7 @@ public class PostsController : ControllerBase
             return StatusCode(500, e.Message);
         }
     }
-    [HttpGet, AllowAnonymous]
+    [HttpGet]
     public async Task<ActionResult<IEnumerable<Post>>> GetAsync([FromQuery] string? username,[FromQuery] int? userId,[FromQuery] string? titleContains, [FromQuery] string? contentContains)
     {
         try
@@ -78,7 +77,7 @@ public class PostsController : ControllerBase
         }
     }
     
-    [HttpGet("{id:int}"), AllowAnonymous]
+    [HttpGet("{id:int}")]
     public async Task<ActionResult> GetById([FromRoute] int id)
     {
         try
