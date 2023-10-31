@@ -340,19 +340,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mikke\\.nuget\\packages\\": {}
+    "C:\\Users\\nicol\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\FileData\\FileData.csproj",
+      "projectUniqueName": "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\FileData\\FileData.csproj",
       "projectName": "FileData",
-      "projectPath": "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\FileData\\FileData.csproj",
-      "packagesPath": "C:\\Users\\mikke\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\FileData\\obj\\",
+      "projectPath": "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\FileData\\FileData.csproj",
+      "packagesPath": "C:\\Users\\nicol\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\FileData\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mikke\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\nicol\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -364,8 +364,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\Application\\Application.csproj"
+            "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\Application\\Application.csproj"
             }
           }
         }
@@ -395,7 +395,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

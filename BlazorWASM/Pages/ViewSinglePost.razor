@@ -17,9 +17,10 @@
         if (userName.Equals(name))
         {
             editAllowed = true;
+            deleteAllowed = true;
         }
         
-        <PostCard Title="@title"  UserName="@userName" ItemId="@id" Content="@content" editAllowed="@editAllowed"/>
+        <PostCard Title="@title"  UserName="@userName" ItemId="@id" Content="@content" editAllowed="@editAllowed" deleteAllowed="@deleteAllowed"/>
     }
     @if (!string.IsNullOrEmpty(msg))
     {
@@ -42,6 +43,7 @@
 
     private string content;
     private bool editAllowed = false;
+    private bool deleteAllowed = false;
     private string title;
     private string userName;
     private int id;

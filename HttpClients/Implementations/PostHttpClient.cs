@@ -96,4 +96,14 @@ public class PostHttpClient : IPostService
             throw new Exception(content);
         }
     }
+    
+    public async Task DeleteAsync(int? id)
+    {
+        HttpResponseMessage response = await client.DeleteAsync($"posts/{id}");
+        if (!response.IsSuccessStatusCode)
+        {
+            string content = await response.Content.ReadAsStringAsync();
+            throw new Exception(content);
+        }
+    }
 }
