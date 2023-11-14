@@ -15,6 +15,14 @@
       "Email": "troels@troels.dk",
       "Age": 34,
       "Role": "user"
+    },
+    {
+      "Id": 3,
+      "UserName": "FjolleBolle",
+      "Password": "1234",
+      "Email": "FB@FJOLLEBOLLE.DK",
+      "Age": 15,
+      "Role": "user"
     }
   ],
   "Posts": [

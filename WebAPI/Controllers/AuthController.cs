@@ -65,7 +65,7 @@ public class AuthController : ControllerBase
     public async Task<ActionResult> Login([FromBody] UserLoginDto userLoginDto)
     {
         try
-        {
+        { 
             User user = await authService.ValidateUser(userLoginDto.Username, userLoginDto.Password);
             string token = GenerateJwt(user);
     

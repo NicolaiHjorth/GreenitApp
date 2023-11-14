@@ -25,7 +25,7 @@ public class PostLogic : IPostLogic
         }
 
         
-        Post post = new Post(user, dto.Title, dto.Content, GetTimestamp(DateTime.Now));
+        Post post = new Post(user.Id, dto.Title, dto.Content, GetTimestamp(DateTime.Now));
         ValidatePost(post);
         Post created = await postDao.CreateAsync(post);
         return created;
@@ -60,7 +60,7 @@ public class PostLogic : IPostLogic
         string contentToUse = dto.Content ?? existing.Content;
         string timeStampToUse = GetTimestamp(DateTime.Now);
 
-        Post updated = new(userToUse, titleToUse, contentToUse, timeStampToUse)
+        Post updated = new(user.Id, titleToUse, contentToUse, timeStampToUse)
         {
             Id = existing.Id,
         };

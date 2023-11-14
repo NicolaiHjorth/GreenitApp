@@ -3,17 +3,20 @@
 public class Post
 {
     public int Id { get; set; }
-    public User Owner { get; }
-    public string Title { get; }
+    public User Owner { get; private set; }
+    public int OwnerId { get; set; }
+    public string Title { get; private set; }
     
-    public string Content { get; }
-    public String TimeStamp { get; }
+    public string Content { get; private set; }
+    public String TimeStamp { get; private set; }
 
-    public Post(User owner, string title, string content, string timeStamp)
+    public Post(int ownerId, string title, string content, string timeStamp)
     {
-        Owner = owner;
+        OwnerId = ownerId;
         Title = title;
         Content = content;
         TimeStamp = timeStamp;
     }
+
+    private Post() { }
 }

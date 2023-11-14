@@ -1,53 +1,36 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.Data.Entity;
+using System.Data.SQLite;
 using System.IO;
 using System.Text.Json;
 using System.Threading.Tasks;
 using Domain.Models;
+using EfcDataAccess;
+using Microsoft.Data.Sqlite;
+using Microsoft.EntityFrameworkCore;
 
 namespace WebAPI.Services
 {
     public class AuthService : IAuthService
     {
         private readonly IList<User> users;
-
-        public AuthService()
+        private PostContext context;
+        
+        public AuthService(PostContext context)
         {
-            // Load users from the JSON file when the AuthService is constructed.
-            users = LoadUsersFromJsonFile("data.json");
+            this.context = context;
         }
-
-        private IList<User> LoadUsersFromJsonFile(string filePath)
+        
+        public async Task<User> ValidateUser(string userName, string password)
         {
-            try
-            {
-                using (StreamReader reader = new StreamReader(filePath))
-                {
-                    string json = reader.ReadToEnd();
-                    var jsonData = JsonSerializer.Deserialize<JsonData>(json);
 
-                    if (jsonData != null && jsonData.Users != null)
-                    {
-                        return jsonData.Users;
-                    }
-                    else
-                    {
-                        throw new Exception("Invalid JSON format or missing 'Users' data.");
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                throw new Exception($"Error loading users from JSON file: {ex.Message}", ex);
-            }
-        }
+            Console.WriteLine("SWAG1");
 
-        public Task<User> ValidateUser(string username, string password)
-        {
-            User? existingUser = users.FirstOrDefault(u =>
-                u.UserName.Equals(username, StringComparison.OrdinalIgnoreCase));
-
+            User? existingUser = await context.Users.FirstOrDefaultAsync(u => u.UserName.ToLower().Equals(userName.ToLower()));
+            Console.WriteLine(existingUser);
+            Console.WriteLine("SWAG");
             if (existingUser == null)
             {
                 throw new Exception("User not found");
@@ -57,7 +40,10 @@ namespace WebAPI.Services
             {
                 throw new Exception("Password mismatch");
             }
-            return Task.FromResult(existingUser);
+            
+            Console.WriteLine(existingUser);
+            
+            return existingUser;
         }
 
         public Task RegisterUser(User user)

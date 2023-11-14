@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\Application\\Application.csproj": {
+    "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\nicol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\Application\\obj\\",
+        "projectPath": "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\mikke\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nicol\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\mikke\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -26,8 +26,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\Domain\\Domain.csproj"
+              "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\Domain\\Domain.csproj"
               }
             }
           }
@@ -57,21 +57,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\Domain\\Domain.csproj": {
+    "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\nicol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\mikke\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nicol\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\mikke\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -116,21 +116,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\FileData\\FileData.csproj": {
+    "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\EfcDataAccess\\EfcDataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\FileData\\FileData.csproj",
-        "projectName": "FileData",
-        "projectPath": "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\FileData\\FileData.csproj",
-        "packagesPath": "C:\\Users\\nicol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\FileData\\obj\\",
+        "projectUniqueName": "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\EfcDataAccess\\EfcDataAccess.csproj",
+        "projectName": "EfcDataAccess",
+        "projectPath": "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\EfcDataAccess\\EfcDataAccess.csproj",
+        "packagesPath": "C:\\Users\\mikke\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\EfcDataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nicol\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\mikke\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -142,8 +142,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\Application\\Application.csproj"
+              "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\Application\\Application.csproj"
               }
             }
           }
@@ -157,6 +157,22 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -173,21 +189,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\WebAPI\\WebAPI.csproj",
-        "packagesPath": "C:\\Users\\nicol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\WebAPI\\obj\\",
+        "projectPath": "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\WebAPI\\WebAPI.csproj",
+        "packagesPath": "C:\\Users\\mikke\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nicol\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\mikke\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -199,11 +215,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\Application\\Application.csproj"
+              "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\Application\\Application.csproj"
               },
-              "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\FileData\\FileData.csproj": {
-                "projectPath": "C:\\Users\\nicol\\RiderProjects\\GreenitApp\\FileData\\FileData.csproj"
+              "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\EfcDataAccess\\EfcDataAccess.csproj": {
+                "projectPath": "C:\\Users\\mikke\\RiderProjects\\GreenitApp\\EfcDataAccess\\EfcDataAccess.csproj"
               }
             }
           }
@@ -229,6 +245,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.118, )"
             }
           },
           "imports": [
@@ -250,7 +270,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
