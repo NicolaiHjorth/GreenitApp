@@ -3,6 +3,9 @@
 @using HttpClients.ClientInterfaces
 @using BlazorWASM.Pages.Components
 @inject IPostService postService
+@inject NavigationManager NavigationManager
+
+
 
 <h3>Posts</h3>
 <div class="d-flex flex-row" style="margin: auto">
@@ -69,6 +72,7 @@ else
     
     protected override async Task OnInitializedAsync()
     {
+        Console.WriteLine("whatup");
     // This method will be invoked when the page is first initialized.
         await LoadPosts();
     }
@@ -77,9 +81,14 @@ else
     {
         try
         {
-            posts = await postService.GetAsync(usernameFilter, titleContainsFilter, contentContainsFilter);
-            
-            posts = posts.OrderByDescending(post => post.TimeStamp);
+            Console.WriteLine("hejhej");
+            var loadedPosts = await postService.GetAsync(usernameFilter, titleContainsFilter, contentContainsFilter);
+
+            if (loadedPosts != null)
+            {
+                Console.WriteLine($"Number of loaded posts: {loadedPosts.Count()}");
+                posts = loadedPosts.OrderByDescending(post => post.TimeStamp);
+            }
         }
         catch (Exception e)
         {
@@ -87,6 +96,7 @@ else
             msg = e.Message;
         }
     }
+
     
 
 }
