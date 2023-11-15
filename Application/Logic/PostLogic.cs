@@ -60,7 +60,7 @@ public class PostLogic : IPostLogic
         string contentToUse = dto.Content ?? existing.Content;
         string timeStampToUse = GetTimestamp(DateTime.Now);
 
-        Post updated = new(user.Id, titleToUse, contentToUse, timeStampToUse)
+        Post updated = new(userToUse.Id, titleToUse, contentToUse, timeStampToUse)
         {
             Id = existing.Id,
         };

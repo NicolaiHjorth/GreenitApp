@@ -46,12 +46,11 @@
         {
             PostBasicDto postData = await postService.GetByIdAsync(Id);
             
-
-            dto = new(Id)
-            {
-                Title = postData.Title,
-                Content = postData.Content
-            };
+                dto = new(Id)
+                {
+                    Title = postData.Title,
+                    Content = postData.Content
+                };
         }
         catch (Exception e)
         {

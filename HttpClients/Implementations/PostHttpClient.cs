@@ -93,6 +93,7 @@ public class PostHttpClient : IPostService
         if (!response.IsSuccessStatusCode)
         {
             string content = await response.Content.ReadAsStringAsync();
+            Console.WriteLine(content+" hej");
             throw new Exception(content);
         }
     }

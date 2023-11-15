@@ -23,14 +23,7 @@ namespace WebAPI.Services
         
         public async Task<User> ValidateUser(string userName, string password)
         {
-            Console.WriteLine("SWAG1");
-
-            User existingUser = await context.Users
-                .FirstOrDefaultAsync(u => u.UserName.ToLower().Equals(userName.ToLower()));
-
-
-            Console.WriteLine(existingUser);
-            Console.WriteLine("SWAG");
+            User existingUser = await context.Users.FirstOrDefaultAsync(u => u.UserName.ToLower().Equals(userName.ToLower()));
 
             if (existingUser == null)
             {
